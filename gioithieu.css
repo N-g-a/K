@@ -1,0 +1,18 @@
+.page-gt {
+    width: 80%;
+    margin: 50px 0 150px 100px;
+}
+
+.page-header {
+    height: 50px;
+    background: #FF33FF;
+    line-height: 40px;
+    padding-left: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.page-info {
+    font-size: 17px;
+    margin-top: 20px;
+}
