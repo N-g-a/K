@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trang Web Cửa Hàng Điện Thoại Di Động</title>
+    <link rel="shortcut icon" href="img/footer/logo_chay.png" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!--owl carousel -->
+    <link rel="stylesheet" href="js/Owlcarousel/Owl.carousel.min.css">
+    <link rel="stylesheet" href="js/Owlcarousel/Owl.theme.default.min.css">
+
+    <!--Jquery-->
+    <script src="js/Jquery/Jquery.min.js"></script>
+    <script src="js/Owlcarousel/Owl.carousel.min.js"></script>
+
+    <!--css-->
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/topnav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/taikhoan.css">
+    <link rel="stylesheet" href="css/trangchu.css">
+    <link rel="stylesheet" href="css/home_products.css">
+    <link rel="stylesheet" href="css/phantrang.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+    <!--js-->
+    <script src="data/products.js"></script>
+    <script src="js/classes.js"></script>
+    <script src="js/dungchung.js"></script>
+    <script src="js/trangchu.js"></script>
+
+</head>
+
+<body>
+    <script>
+        addTopNav();
+    </script>
+
+    <section>
+        <script>
+            addHeader();
+        </script>
+
+        <div class="banner">
+            <div class="owl-carousel owl-theme"></div>
+        </div>
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
+
+            </div>
+
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/banners/banner0.gif" alt="Los Angeles" class="d-block" style="width:100%">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/banners/banner1.png" alt="Chicago" class="d-block" style="width:100%">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/banners/banner2.png" alt="New York" class="d-block" style="width:100%">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/banners/banner3.png" alt="New York" class="d-block" style="width:100%">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/banners/banner4.png" alt="New York" class="d-block" style="width:100%">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/banners/banner5.png" alt="New York" class="d-block" style="width:100%">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/banners/banner6.png" alt="New York" class="d-block" style="width:100%">
+                </div>
+            </div>
+
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div><br>
+        <!-- End Banner -->
+
+        <img src="img/banners/quangcao.png" alt="" style="width: 100%; height: 90px;">
+
+        <br>
+        <div class="companyMenu group flexContain"></div>
+
+        <div class="flexContain">
+
+            <div class="pricesRangeFilter dropdown">
+                <button class="dropbtn">Giá tiền</button>
+                <div class="dropdown-content"></div>
+            </div>
+
+            <div class="promosFilter dropdown">
+                <button class="dropbtn">Khuyến mãi</button>
+                <div class="dropdown-content"></div>
+            </div>
+
+            <div class="starFilter dropdown">
+                <button class="dropbtn">Số lượng sao</button>
+                <div class="dropdown-content"></div>
+            </div>
+
+            <div class="sortFilter dropdown">
+                <button class="dropbtn">Sắp xếp</button>
+                <div class="dropdown-content"></div>
+            </div>
+
+        </div>
+        <!-- End khung chọn bộ lọc -->
+
+        <div class="choosedFilter flexContain">
+            <a id="deleteAllFilter" style="display: none;">
+                <h3>Xóa toàn bộ</h3>
+            </a>
+        </div>
+        <!-- Những bộ lọc đã chọn -->
+        <hr>
+
+        <!-- Mặc định mới vào trang sẽ ẩn đi, nế có filter thì mới hiện lên -->
+        <div class="contain-products" style="display:none">
+            <div class="filterName">
+                <input type="text" placeholder="Lọc trong trang theo tên..." onkeyup="filterProductsName(this)">
+            </div>
+            <!-- End FilterName -->
+
+            <ul id="products" class="homeproduct group flexContain">
+                <div id="khongCoSanPham">
+                    <i class="fa fa-times-circle"></i> Không có sản phẩm nào
+                </div>
+                <!-- End Khong co san pham -->
+            </ul>
+            <!-- End products -->
+
+            <div class="pagination"></div>
+        </div>
+
+        <!-- Div hiển thị khung sp hot, khuyến mãi, mới ra mắt ... -->
+        <div class="contain-khungSanPham"></div>
+
+    </section>
+    <!-- End Section -->
+
+    <script>
+        addContainTaiKhoan();
+        addPlc();
+    </script>
+
+    <div class="footer">
+        <script>
+            addFooter();
+        </script>
+    </div>
+
+    <i class="fa fa-arrow-up" id="goto-top-page" onclick="gotoTop()"></i>
+
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trang Web Cửa Hàng Điện Thoại Di Động</title>
+    <link rel="shortcut icon" href="img/footer/logo_chay.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+
+    <!--css-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/topnav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/taikhoan.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/tintuc.css">
+
+    <!--js-->
+    <script src="data/products.js"></script>
+    <script src="js/dungchung.js"></script>
+    <script>
+        window.onload = function() {
+            khoitao();
+            //Them tu khoa vao khung tim kiem?"
+            var tags = ["Apple", "Samsung", "Oppo", "Nokia", "Xiaomi", "Vivo"];
+            for (var t of tags) addTags(t, "index.html?search=" + t);
+        }
+    </script>
+
+</head>
+
+<body>
+    <script>
+        addTopNav();
+    </script>
+
+    <section style="min-height: 85vh">
+        <script>
+            addHeader();
+        </script>
+
+        <div class="body-tintuc">
+            <div class="tintuc-info">
+                <a href="https://fptshop.com.vn/tin-tuc/tin-moi/iphone-14-pro-max-dat-giai-thuong-man-hinh-smartphone-tot-nhat-150144" target="_blank">
+                    <img src="img/tintuc/tintuc_iphone14.png">
+                    <h2>iPhone 14 Pro Max giành được giải thưởng màn hình smartphone tốt nhất</h2>
+                </a>
+                <br/>
+                <h5>FPT Shop &emsp;3 giờ</h5>
+            </div>
+            <div class="tintuc-info">
+                <a href="https://www.24h.com.vn/thoi-trang-hi-tech/tu-iphone-14-pro-len-iphone-15-pro-du-ngon-de-ifan-nang-cap-khong-c407a1485687.html" target="_blank">
+                    <img src="img/tintuc/tintu2_Iphone.png">
+                    <h2>Từ iPhone 14 Pro lên iPhone 15 Pro, đủ "ngon" để iFan nâng cấp không?</h2>
+                </a>
+                <br/>
+                <h5>Thời trang Hi-tech &emsp; 2023-07-21</h5>
+            </div>
+            <div class="tintuc-info">
+                <a href="https://cellphones.com.vn/sforum/galaxy-s24-series-se-khong-duoc-nang-cap-camera-selfie" target="_blank">
+                    <img src="img/tintuc/tintuc3_samsung.png">
+                    <h2>Samsung ra mắt smartphone 8 triệu có camera 108 MP, pin 6000 mAh</h2>
+                </a>
+                <br/>
+                <h5>Sforum.vn &emsp; 2023-05-15</h5>
+            </div>
+            <div class="tintuc-info">
+                <a href="https://www.oppo.com/vn/newsroom/press/oppo-ra-mat-find-n2-flip-dien-thoai-gap-dau-tien/" target="_blank">
+                    <img src="img/tintuc/tintuc4_oppo.png">
+                    <h2>OPPO chính thức giới thiệu Find N2 Flip tại thị trường Việt Nam, mở ra tiêu chuẩn mới cho điện thoại gập</h2>
+                </a>
+                <br/>
+                <h5>oppo &emsp; 2023-03-29</h5>
+            </div>
+            <div class="tintuc-info" style="border-bottom: 0;">
+                <a href="https://vnexpress.net/vivo-v27e-nang-cap-thiet-ke-quay-chup-4602656.html" target="_blank">
+                    <img src="img/tintuc/tintuc5_vivo.png" height="148px" width="224px;">
+                    <h2>Vivo V27e nâng cấp thiết kế, quay chụp</h2>
+                </a>
+                <br/>
+                <h5>Zing &emsp; 9 giờ</h5>
+            </div>
+
+        </div>
+
+    </section>
+
+    <script>
+        addContainTaiKhoan();
+    </script>
+
+    <div class="footer">
+        <script>
+            addFooter();
+        </script>
+
+    </div>
+
+    <i class="fa fa-arrow-up" id="goto-top-page" onclick="gotoTop()"></i>
+
+</body>
+
+</html>
